@@ -1,6 +1,5 @@
 body {
-  background-color: grey;
-  padding-bottom: 10px;
+  background-color: #2B6891;
 }
 
 * {
@@ -8,27 +7,32 @@ body {
 }
 
 .header {
-  background-color: black;
-  height: 50px;
+  background-color: #2B6891;
   width: 100%;
   margin: 0;
-  margin-bottom: 10px;
+
 }
 
 h1 {
   color: white;
   text-align: center;
+  font-size: 250%;
   margin: 0;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  font-family: Arial;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family: 'Montserrat', sans-serif;;
 }
 
-#left { 
+h2 {
+  font-family: Helvetica;
+}
+
+#left {
 }
 
 img{
-  height: 100px;
+  max-width: 100%;
+  height: auto;
 }
 
 
@@ -41,15 +45,26 @@ a {
 .left-text {
   margin-left: 10px;
   margin-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 #right {
+  border-left-style: solid;
+  border-left-width: 20px;
+  border-left-color: #2B6891;
 }
 
 
 .right-text {
   margin-left: 10px;
   margin-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .clearfix {
@@ -59,22 +74,20 @@ a {
 @media(min-width: 400px) {
   #left{
     float: left;
-    width: 20%;
-    padding: 10px;
+    width: 30%;
+    padding: 5px;
   }
   #right{
     float: left;
-    width: 80%;
-    padding: 10px;
+    width: 66%;
+    padding: 5px;
   }
 }
 
 .inner {
-  background-color: white;
-  border-radius: 10px;
+  background-color: #F8F8F8;
   width: 100%;
   margin-left: 10px;
-  margin-right: 10px;
 }
 
 .row {
