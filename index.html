@@ -1,100 +1,51 @@
 <!DOCTYPE HTML>
 <html>
-<head>
-  <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.min.css">
-  <link rel="stylesheet" href="main.css">
-  <link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
-  <meta name="viewport" content="width=device-width">
-</head>
-<body>
-  <div class="header">
-    <h1>Holly Hastings</h1>
-  </div>
-  <div class="row">
-    <div id="left">
-      <div class="inner">
-        <div class="left-text">
-          <h2>About Me</h2>
-          <img src="peermentorpicHolly.jpg"/>
-          </br>
-          </br>
-          <a href="mailto:hhastings111@gmail.com" target="_top"><img src="blue_email.png"</a>
-          <a href="https://www.linkedin.com/pub/holly-hastings/81/38/421"><img src="blue_linkedin.png"/></a>
-          <a href="https://github.com/hollyhastings"><img src="blue_github.png"/></a>
-          <p>I'm a third year Software Engineering student at the Rochester Institute of Technology. I live in Buffalo, NY when I'm not on campus</p>
-          <p>I love to learn new languages and anything in general. I've loved coding ever since I've started (first year of college)</p>
+  <head>
+    <meta charset="utf-8">
+    <meta lang="en">
+    <title>Holly Hastings' Website</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body itemscope itemtype="http://schema.org/Person">
+    <header>
+      <h1><span itemprop="name">Holly Hastings</span></h1>
+    </header>
+    <section class="about-me-side">
+      <h2>About Me</h2>
+      <div class="about-me-content">
+        <p>I'm a fourth year <span itemprop="jobTitle">Software Engineering student</span> at the <span itemprop="affiliation">Rochester Institute of Technology</span>. My hometown is <span itemprop="address" itemscope
+    itemtype="http://schema.org/PostalAddress"><span itemprop="addressLocality">Buffalo</span>, <span itemprop="addressRegion">NY</span>.</span></p>
+        <section class="known-languages">
+        <p>I'm currently a <span itemprop="jobTitle">Website Intern</span> at <span itemprop="worksFor">Constant Contact</span></span></p>
           <h3>Known Languages</h3>
           <ul>
             <li>Java</li>
             <li>Ruby</li>
             <li>Python</li>
           </ul>
+        </section>
+        <section class="languages-learning">
           <h3>Languages I'm Learning</h3>
           <ul>
             <li>Javascript</li>
             <li>Swift</li>
             <li>C</li>
-            <li>Go</li>
           </ul>
-        </div>
+        </section>
       </div>
-    </div>
-    <div id="right">
-      <div class="inner">
-        <div class="right-text">
-          <h2>Projects</h2>
-          <ul>
-            <h3><li><a href="http://hollyhastings.me/justify">Justify</a></li></h3>
-            <ul>
-              <li>Justify is an open source web application excuse generator created for the Software Freedom Day 2014 and my excuse to start learning more Javascript. Justify uses AngularJS and Twitter Bootstrap and randomly generates mostly coherent excuses. This project is also a Firefox OS app and can be found at the <a href="https://marketplace.firefox.com">Firefox Marketplace</a>. We currently have a 5 star rating!</li>
-            </ul>
-            </br>
-            <h3><li>ToolShare</li></h3>
-            <ul>
-              <li>Toolshare is a Django web application created for my Intro to Software Engineering course. This project was my first experience as a team lead in a group software project and I had a great time learning management skills from being thrown into the experience. I also learned the importance of planning for and managing risks and how to lead a team that gets things done and enjoys doing it.</li>
-            </ul>
-            </br>
-            <h3><li>Neighborhood Security Project</li></h3>
-              <ul>
-                <li>For my Process class, I was the Project Manager of a team of four who worked together create a document laying out the process for the Neighborhood Security project for both SCRUM and RUP. The biggest challenge was the coordination between other class Project Managers and the whole class to present our final project which consisted of an hour long run-through of a Software Process Game Show Network including commercials. I was able to lead a cohesive team and we had a lot of fun (especially with our Game Show).</li>
-              </ul>
-            <h3><li>Duel</li></h3>
-              <ul>
-                <li>Duel is an iOS 8 game coded entirely in Swift created for the RIT 2015 iOS App Challenge. Our game uses color detection to casts spells and try to defeat the other wizard (currently just a basic AI for now). I worked primarily using SpriteKit and animations. However, the first day of the hackathon, my computer died and my team had to spend the time to go to the Apple Store and get it checked out. We even did pair programming while standing at the Genius Bar and continued pair programming for the rest of the challange. This was my first experience doing iOS development.</li>
-              </ul>
-            <h3><li><a href="https://github.com/smt9020/Mixtery">Mixtery</a></li></h3>
-              <ul>
-               <li>Mixtery is a Rails web app created for the WicHacks Hackathon 2014. It is a game where you try to guess the song from a remixed sound clip. Mixtery helped me learn Rails outside of class. It was also my first experience with pair programming and using basic HTML, CSS,and jQuery. We won a prize for our use of the Echo Nest API!</li>
-              </ul>
-            </br>
-            <h3><li><a href="https://github.com/hollyhastings/text_adventure">text_adventure</a></li></h3>
-              <ul>
-                <li>text_adventure is a ruby gem text adventure. This project is how I learned basic OO before being exposed to it in class. The gem started as a Code and Fix, but through learning more about process from my Software Engineering courses, I decided to freeze coding and start laying out an actual design.</li>
-              </ul>
-            </ul>
-    <h2>Other Things I Do</h2>
-      <ul>
-        <h3><li>Member of the <a href="https://sse.se.rit.edu">Society of Software Engineers</a></li></h3>
+    </section>
+    <main>
+      <section class="projects">
+        <h2>Projects</h2>
+      </section>
+      <section class="other-things">
+        <h2>Other Things I Do</h2>
         <ul>
-          <li>Fundraising Committee</li>
-          <li>Winter Ball Committee</li>
+          <li><span itemprop="jobTitle">Scholarship Chair</span> of <span itemprop="memberOf">Delta Aplha Chapter of Phi Sigma Pi National Honor Fraternity</span></li>
+          <li>Member of the <span itemprop="memberOf">Society of Software Engineers</span>s</li>
+          <li>Member of <span itemprop="memberOf">Women in Computing at RIT</span></li>
         </ul>
-      </br>
-      <h3><li>Member of RIT's <a href="http://gcciswic.rit.edu">Women in Computing</a></li></h3>
-        <ul>
-          <li>Events Committee, Head of Talks</li>
-        </ul>
-        </br>
-      <h3><li>Learning Outside of Class</li></h3>
-        <ul>
-          <li><a href="https://www.edx.org">EDX</a> is great for learning new things or just review</li>
-        </ul>
-      </ul>
-    </div>
-  </div>
-  </div>
-</div>
-<div class="clearfix">
-</div>
-</body>
+      </section>
+    </main>
+  </body>
 </html>
