@@ -75,6 +75,10 @@ img {
   width: auto;
 }
 
+main {
+  background-color: #EEEEEE;
+}
+
 summary {
   background-color:#99B92C;
   color:white;
