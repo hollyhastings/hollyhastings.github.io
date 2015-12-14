@@ -5,24 +5,20 @@
   display: -webkit-flex;
   display: flex;
 
-  -webkit-flex-flow: row wrap;
-  flex-flow: row wrap;
+  -webkit-flex-flow: row;
+  flex-flow: row;
 }
 
-.page-header, .about-me-side, .page-footer, main {
-  flex: 1 100%;
-  -webkit-flex: 1 100%;
-}
-
-@media all and (min-width: 800px) {
-  .main { 
-    flex: 2 0px; 
-    -webkit-flex: 2 0px;
+@media all and (max-width: 660px) {
+  .wrapper-for-flex {
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
   }
+}
 
-  .about-me-side { order: 1; }
-  .main { order: 2; }
-  .page-footer { order: 3; }
+html, body, .page-header, .page-footer {
+  padding: 0;
+  margin: 0;
 }
 
 .page-header {
@@ -30,10 +26,16 @@
   text-align: center;
   color: white;
   font-family: 'Roboto', sans-serif;
+  height: 100px;
+}
+
+h1 {
+  margin: 0;
+  padding: 20px;
 }
 
 h2 {
-  color: #2B6891;
+  color: #1975D1;
   font-family: 'Roboto', sans-serif;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -41,7 +43,7 @@ h2 {
 }
 
 h3 {
-  color: #2c6b95;
+  color: #1975D1;
   font-family: 'Roboto', sans-serif;
   padding: 0;
   margin-bottom: 5px;
@@ -49,6 +51,10 @@ h3 {
 
 .about-me-side {
   padding-left: 5%;
+  -webkit-flex: 3 1 55%;
+  flex: 3 1 55;
+  -webkit-order: 1;
+  order: 1;
 }
 
 p {
@@ -77,6 +83,10 @@ img {
 
 main {
   background-color: #EEEEEE;
+  -webkit-flex: 1 6 45%;
+  flex: 1 6 45%;
+  -webkit-order: 2;
+  order: 2;
 }
 
 summary {
@@ -111,4 +121,6 @@ details details summary {
 
 .page-footer > p {
   color: white;
+  margin: 0;
+  padding: 10px;
 }
