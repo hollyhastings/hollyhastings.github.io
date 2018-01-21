@@ -5,70 +5,260 @@
   <title>Holly Hastings' Website</title>
   <link rel="stylesheet" href="main.css">
   <link href='http://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'>
+  <script src="https://use.fontawesome.com/75edf47b7e.js"></script>
   <script src='details-polyfill.js' type="text/javascript"></script>
 </head>
-<body itemscope itemtype="http://schema.org/Person">
+<body>
   <header class="page-header">
-    <h1><span itemprop="name">Holly Hastings</span></h1>
+    <h1>Holly Hastings</h1>
   </header>
   <div class="wrapper-for-flex">
     <section class="about-me-side">
       <h2>About Me</h2>
-      <img src="peermentorpicHolly.jpg" alt"Picture of Holly"/>
+      <img src="peermentorpicHolly.jpg" alt="Picture of Holly Hastings"/>
       <div class="about-me-content">
-        <p>I'm a fourth year <span itemprop="jobTitle">Software Engineering student</span> at the <span itemprop="affiliation">Rochester Institute of Technology</span>. My hometown is <span itemprop="address" itemscope
-          itemtype="http://schema.org/PostalAddress"><span itemprop="addressLocality">Buffalo</span>, <span itemprop="addressRegion">NY</span></span></p>
-          <p>I'm currently a <span itemprop="jobTitle">Website Intern</span> at <span itemprop="worksFor">Constant Contact</span></p>
-          <section class="known-languages">
-            <h3>Known Languages</h3>
+        <p>I'm a fourth year Software Engineering student at the <a href="https://www.rit.edu">Rochester Institute of Technology</a>. I plan to graduate in December 2018.</p>
+          <section class="contact">
+            <h3>Contact Me</h3>
             <ul>
-              <li>Java</li>
-              <li>Ruby</li>
-              <li>Python</li>
+              <li><i class="fa fa-envelope" aria-hidden="true"></i><a href="mailto:hhastings111@gmail.com">&nbsp; Email</a></li>
+              <li><i class="fa fa-linkedin-square" aria-hidden="true"></i><a href="https://www.linkedin.com/in/holly-hastings"> &nbsp; LinkedIn</a></li>
+              <li><i class="fa fa-github" aria-hidden="true"></i><a href="https://github.com/hollyhastings"> &nbsp; GitHub</a></li>
             </ul>
           </section>
-          <section class="languages-learning">
-            <h3>Languages I'm Learning</h3>
+          <section class="interests">
+            <h3>Interests</h3>
             <ul>
-              <li>Javascript</li>
-              <li>Swift</li>
-              <li>C</li>
+              <li>Human Computer Interaction and User Experience</li>
+              <li>Linguistics and Language Processing</li>
+              <li>Entrepreneurship</li>
+              <li>Data Mining</li>
+              <li>Product Management</li>
+              <li>Project Management</li>
+              <li>Psychology</li>
             </ul>
           </section>
-        </div>
-      </section>
+      </div>
+    </section>
       <main>
+        <details class="skills">
+          <summary>Skills</summary>
+            <details class="tech-lang">
+              <summary>Technical Languages</summary>
+                <ul>
+                  <li><b>Fluent</b></li>
+                    <ul>
+                      <li>Python</li>
+                      <li>Java</li>
+                      <li>Ruby</li>
+                      <li>JavaScript</li>
+                      <li>Perl</li>
+                      <li>HTML5</li>
+                      <li>CSS3</li>
+                    </ul>
+                  <li><b>Beginner</b></li>
+                    <ul>
+                      <li>C (beginner)</li>
+                      <li>Swift (beginner)</li>
+                      <li>PHP (beginner)</li>
+                    </ul>
+                </ul>
+            </details>
+            <details class="frameworks-and-tools">
+              <summary>Frameworks and Tools</summary>
+                <ul>
+                  <li>Spring</li>
+                  <li>Rails</li>
+                  <li>Django</li>
+                  <li>Catalyst</li>
+                  <li>AngularJS</li>
+                  <li>Node.js</li>
+                  <li>Git and Github</li>
+                  <li>jQuery</li>
+                  <li>SQL</li>
+                  <li>Balsamiq</li>
+                </ul>
+            </details>
+            <details class="other-skills">
+              <summary>Other Skills</summary>
+                <ul>
+                  <li><b>Natural Language</b></li>
+                    <ul>
+                      <li>English (native)</li>
+                      <li>Mandarin Chinese (beginner)</li> 
+                    </ul>
+                   <li><b>Random</b></li>
+                    <ul>
+                      <li>Stand-up Comedy</li>
+                      <li>Quick Learner (given 3 days to learn Perl)</li>
+                      <li>Able to kick a basketball into a basketball hoop (may be rusty)</li>
+                    </ul>
+                </ul>
+            </details>
+        </details>
+        
         <details class="projects">
           <summary>Projects</summary>
-          <details class="justify">
-            <summary>Justify</summary>
-            <p>Description Here</p>
-          </details>
-          <details class="duel">
-            <summary>Duel</summary>
-          </details>
-          <details class="mixtery">
-            <summary>Mixtery</summary>
-          </details>
-          <details class="toolshare">
-            <summary>ToolShare</summary>
-          </details>
-          <details class="neighboorhood-project">
-            <summary>Neighborhood Security Project</summary>
-          </details>
+            <details class="smoking-cession">
+              <summary>Smoking Cessation - Senior Project</summary>
+                <ul>
+                  <li>A platform to help people quit smoking while their progress can be monitored by someone, like a therapist, to aid treatment.</li>
+                  <li>The platform includes a mobile application for use by the smoker and a web application for use of a treatment professional.</li>
+                  <li>My lead contributions include:</li>
+                    <ul>
+                      <li>project management</li>
+                      <li>database schema design</li>
+                      <li>requirements gathering and architecture design</li>
+                      <li>storyboarding and wireframing</li>
+                    </ul>
+                  <li>I'm also helping with the Node.js and AngularJS web application as well as the PHP API and SQL database.</li>
+                </ul>
+            </details>
+            <details class="justify">
+              <summary>Justify</summary>
+                <ul>
+                  <li>An AngularJS application that generates humorous excuse for a user-inputted situation.</li>
+                  <li>Won "Most Humorous" at the Software Freedom Day 2014 Hackathon.</li>
+                  <li><a href="http://hollyhastings.me/justify/">Link to Justify</a></li>
+                </ul>
+            </details>
+            <details class="aquiz">
+              <summary>AQuiz</summary>
+                <ul>
+                  <li>A web application for online quiz management, taking quizzes, and grading quizzes for professors, teaching assistants, and students. Created for Human-Centered Requirements and Design.</li>
+                  <li>My contributions:</li>
+                    <ul>
+                      <li>Created personas and their associated scenarios</li>
+                      <li>Created wireframes and was the lead of UI design, descriptions, and rationale</li>
+                      <li>Helped create a prototype using Python, Django, HTML/CSS, and SQLite</li>
+                      <li>Conducted usability testing using the "talk out loud" method and screen recording software</li>
+                    </ul>
+                </ul>
+            </details>
+            <details class="duel">
+              <summary>Duel</summary>
+              <ul>
+                <li>An iOS game application where the user is a wizard who is dueling against another wizard.</li>
+                <li>Gameplay is similar to rock-paper-scissors where the spells (fire/water/earth/wind) are cast by pointing your camera at an object of a specific color.</li>
+                  <ul>
+                    <li>Red casts fire</li>
+                    <li>Blue casts water</li>
+                    <li>Green casts earth</li>
+                    <li>Yellow casts wind</li>
+                  </ul>
+                <li>I created some of the sprites and animations used in the game using Swift, UIKit, SpriteKit, and Google Drawings.</li>
+              </ul>
+            </details>
+            <details class="the-valley">
+              <summary>The Valley</summary>
+                <ul>
+                  <li>An open-source point and click game that simulates the absurdities of life in Silicon Valley.</li>
+                  <li>Created using Java Swing. (boyfriend's choice, but I will change it)</li>
+                  <li>Won prizes for "Best use of Humor for a Dark Subject" and "Best use of AI/Machine Learning" at the RIT MAGIC Cre8-a-t0n 2017.</li>
+                </ul>
+            </details>  
+            <details class="mixtery">
+              <summary>Mixtery</summary>
+                <ul>
+                  <li>A web quiz game where the user has to identify a song based on a short sound clip.</li>
+                  <li>My first hackathon/side project.</li>
+                  <li>Created using Ruby, Ruby on Rails, HTML, CSS, and jQuery.</li>
+                  <li>Won a prize for "Best use of the Echo Nest API" at WicHacks 2014.</li>
+                </ul>
+            </details>          
         </details>
+
+        <details class="experience">
+          <summary>Experience</summary>
+            <details class="ziprecruiter">
+              <summary>Software Engineering Intern, ZipRecruiter</summary>
+                <ul>
+                  <li>Compared different RESTful resume-parsing services in order to determine the most accurate one (thanks Perl regexes!). My analysis resulted in the company making a multi-million dollar deal with the choosen parsing service. (I guess I didn't lose the company millions of dollars because they invited me back.)</li>
+                  <li>QA was having problems trouble-shooting issues because bug ticket submissions were usually incomplete. I created a bug reporting system using Perl, Catalyst, HTML, CSS, and JavaScript. This system is still in use by the company with hundreds of Fogbugz tickets created through the system every year.</li>
+                  <li>Incrementally migrated a SQL database to Redshift using a Perl script and Cron scheduling.</li>
+                </ul>
+            </details>
+            <details class="constant-contact">
+              <summary>Website Intern, Constant Contact</summary>
+                <ul>
+                  <li>Implemented a JavaScript font-loading algorithm that resulted in a 1 second faster page load time.</li>
+                  <li>Integrated the SonarQube code quality tool into the Java Spring website's maven build process.</li>
+                  <li>Led a meeting which lead to the team adoption of Java coding standards.</li>
+                </ul>
+            </details>
+        </details>
+        
+        <details class="courses">
+          <summary>Courses</summary>
+            <details class="favorite-courses">
+              <summary>Favorite Courses</summary>
+                <ul>
+                  <li>Human-Centered Requirements and Design</li>
+                  <li>Entrepreneurship/New Venture Creation</li>
+                  <li>Software Process and Project Management</li>
+                  <li>Principles of Data Mining</li>
+                  <li>Social Psychology</li>
+                  <li>Biopsychology</li>
+                  <li>Intro to Animation</li>
+                  <li>Intro to Philosophy</li>
+                </ul>
+            </details>
+            <details class="current-courses">
+              <summary>Current Courses</summary>
+                <ul>
+                  <li>Engineering Fundamentals of Computing Systems</li>
+                  <li>Analysis of Algorithms</li>
+                  <li>Cognitive Psychology</li>
+                  <li>Beginners Swimming</li>
+                  <li>Senior Project</li>
+                </ul>
+            </details>
+            <details class="other-courses">
+              <summary>Other Courses</summary>
+                <ul>
+                  <li><b>Other School Courses</b></li>
+                    <ul>
+                      <li>Intro to Computer Science</li>
+                      <li>Data Structures</li>
+                      <li>Intro to Software Engineering</li>
+                      <li>Engineering of Software Subsystems</li>
+                      <li>Software Requirements and Architecture</li>
+                      <li>Engineering of Cloud-Based Software Systems</li>
+                    </ul>
+                  <li><b>Learning Outside of School</b></li>
+                    <ul>
+                      <li>Intro to HTML and CSS - Udacity</li>
+                      <li>Learn HTML5 from W3C - Edx</li>
+                      <li>Intro to User Experience - Edx</li>
+                    </ul>
+                </ul>
+            </details>
+        </details>
+
         <details class="other-things">
           <summary>Other Things I Do</summary>
-          <ul>
-            <li><span itemprop="jobTitle">Scholarship Chair</span> of <span itemprop="memberOf">Delta Alpha Chapter of Phi Sigma Pi National Honor Fraternity</span></li>
-            <li>Member of the <span itemprop="memberOf">Society of Software Engineers</span></li>
-            <li>Member of <span itemprop="memberOf">Women in Computing at RIT</span></li>
-          </ul>
+            <ul>
+              <li>Tiger Tales <a href="https://www.toastmasters.org">Toastmasters</a></li>
+              <li><a href="https://www.mccossum.com/innovators-hour">Innovators Hour</a></li>
+              <li><a href="https://phisigmapi.org">Phi Sigma Pi</a> - Delta Chapter (2015 - 2017)</li>
+                <ul>
+                  <li>Initiate Advisor, Historian, Scholarship Chair</li>
+                </ul>
+              <li><a href="https://sse.rit.edu">Society of Software Engineers</a></li>
+                <ul>
+                  <li>Fundraising and Winter Ball Committees</li>
+                </ul>
+              <li><a href="http://wic.rit.edu">Women in Computing</a></li>
+                <ul>
+                  <li>Former Head of Talks, Events Committee</li>
+                </ul>
+            </ul>
         </details>
-      </main>
-    </div>
-    <footer class="page-footer">
-      <p>I'm a footer</p>
-    </footer>
+      </details>
+    </main>
+  </div>
+  <footer class="page-footer">
+    <p>Copyright &copy; <script>new Date().getFullYear()>2010&&document.write(new Date().getFullYear());</script> Holly Hastings</p>
+  </footer>
   </body>
-  </html>
+</html>
