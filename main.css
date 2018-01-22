@@ -69,8 +69,8 @@ h3 {
   flex: 25%;
   -webkit-order: 1;
   order: 1;
-  -webkit-flex-basis: 500px;
-  flex-basis: 500px;
+  -webkit-flex-basis: 720px;
+  flex-basis: 720px;
 }
 
 main {
