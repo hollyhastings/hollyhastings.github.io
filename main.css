@@ -66,7 +66,8 @@ h3 {
   flex: 25%;
   -webkit-order: 1;
   order: 1;
-  min-width: 200px;
+  -webkit-flex-basis: 200px;
+  flex-basis: 200px;
 }
 
 main {
@@ -133,9 +134,6 @@ a:hover {
 ul ul li {
   margin-left: -25px;
 }
-
-
-
 
 summary {
   background-color:#99B92C;
