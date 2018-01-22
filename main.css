@@ -9,7 +9,7 @@
   flex-flow: row;
 }
 
-@media all and (max-width: 1080px) {
+@media all and (max-width: 720px) {
   .wrapper-for-flex {
     -webkit-flex-wrap: wrap;
     flex-wrap: wrap;
@@ -42,6 +42,7 @@ body {
 h1 {
   margin: 0;
   padding: 20px;
+  font-size: 250%;
 }
 
 h2 {
@@ -50,6 +51,7 @@ h2 {
   margin-top: 10px;
   margin-bottom: 10px;
   padding: 0;
+  font-size: 200%;
 }
 
 h3 {
@@ -57,6 +59,7 @@ h3 {
   font-family: 'Roboto', sans-serif;
   padding: 0;
   margin-bottom: 5px;
+  font-size: 150%;
 }
 
 .about-me-side {
@@ -66,8 +69,8 @@ h3 {
   flex: 25%;
   -webkit-order: 1;
   order: 1;
-  -webkit-flex-basis: 720px;
-  flex-basis: 720px;
+  -webkit-flex-basis: 500px;
+  flex-basis: 500px;
 }
 
 main {
@@ -89,6 +92,7 @@ main {
 p {
   color: #296389;
   font-family: 'Roboto', sans-serif;
+  font-size: 100%;
 }
 
 .contact ul {
@@ -118,6 +122,7 @@ ul {
 li {
   color: #296389;
   font-family: 'Roboto', sans-serif;
+  font-size: 100%;
   padding-bottom: 2px;
   padding-top: 5px;
 }
