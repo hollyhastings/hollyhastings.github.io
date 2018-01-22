@@ -9,10 +9,10 @@
   flex-flow: row;
 }
 
-@media all and (max-width: 1920px) {
+@media all and (min-width: 100px) {
   .wrapper-for-flex {
-    flex-wrap: wrap;
     -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
   }
 }
 
@@ -66,6 +66,15 @@ h3 {
   flex: 25%;
   -webkit-order: 1;
   order: 1;
+  min-width: 200px;
+}
+
+main {
+  background-color: #EEEEEE;
+  -webkit-flex: 70%;
+  flex: 70%;
+  -webkit-order: 2;
+  order: 2;
 }
 
 .about-me-side img {
@@ -126,13 +135,7 @@ ul ul li {
 }
 
 
-main {
-  background-color: #EEEEEE;
-  -webkit-flex: 70%;
-  flex: 70%;
-  -webkit-order: 2;
-  order: 2;
-}
+
 
 summary {
   background-color:#99B92C;
