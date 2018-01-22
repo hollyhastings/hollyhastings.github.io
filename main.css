@@ -42,13 +42,13 @@ body {
 h1 {
   margin: 0;
   padding: 20px;
-  font-size: 300%;
+  font-size: 350%;
 }
 
 h2 {
   color: #101799;
   font-family: 'Roboto', sans-serif;
-  font-size: 200%;
+  font-size: 300%;
   margin-top: 10px;
   margin-bottom: 10px;
   padding: 0;
@@ -59,7 +59,7 @@ h3 {
   font-family: 'Roboto', sans-serif;
   padding: 0;
   margin-bottom: 5px;
-  font-size: 150%;
+  font-size: 200%;
 }
 
 .about-me-side {
@@ -92,7 +92,7 @@ main {
 p {
   color: #296389;
   font-family: 'Roboto', sans-serif;
-  font-size: 100%;
+  font-size: 150%;
 }
 
 .contact ul {
@@ -124,7 +124,7 @@ li {
   font-family: 'Roboto', sans-serif;
   padding-bottom: 2px;
   padding-top: 5px;
-  font-size: 100%;
+  font-size: 150%;
 }
 
 a {
@@ -144,7 +144,7 @@ summary {
   background-color:#99B92C;
   color:white;
   font-family: 'Roboto', sans-serif;
-  font-size: 200%;
+  font-size: 250%;
   padding-left: 15px;
   padding-top: 2%;
   padding-bottom: 2%;
@@ -155,7 +155,7 @@ summary {
 
 details details summary {
   background-color: #53C1E6;
-  font-size: 125%;
+  font-size: 200%;
   margin-left: 3%;
   padding-top: 2.5%;
   padding-bottom: 2.5%;
