@@ -9,7 +9,7 @@
   flex-flow: row;
 }
 
-@media all and (min-width: 100px) {
+@media all and (max-width: 1080px) {
   .wrapper-for-flex {
     -webkit-flex-wrap: wrap;
     flex-wrap: wrap;
@@ -66,8 +66,8 @@ h3 {
   flex: 25%;
   -webkit-order: 1;
   order: 1;
-  -webkit-flex-basis: 200px;
-  flex-basis: 200px;
+  -webkit-flex-basis: 720px;
+  flex-basis: 720px;
 }
 
 main {
