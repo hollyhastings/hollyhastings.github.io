@@ -17,7 +17,7 @@
       <h2>About Me</h2>
       <img src="peermentorpicHolly.jpg" alt="Picture of Holly Hastings"/>
       <div class="about-me-content">
-        <p>I'm a Software Engineer at <a href="https://www.xerox.com">Xerox</a>. I graduated from <a href="https://www.rit.edu">Rochester Institute of Technology</a> Dec. 2018 with a BS in Software Engineering.</p>
+        <p>I'm a Software Engineer at <a href="https://measuresforjustice.org/">Measures for Justice</a>. I graduated from <a href="https://www.rit.edu">Rochester Institute of Technology</a> in Dec. 2018 with a BS in Software Engineering.</p>
           <section class="contact">
             <h3>Contact Me</h3>
             <ul>
@@ -48,6 +48,7 @@
                 <ul>
                   <li><b>Fluent</b></li>
                     <ul>
+                      <li>Kotlin</li>
                       <li>Python</li>
                       <li>Java</li>
                       <li>Ruby</li>
@@ -58,25 +59,37 @@
                     </ul>
                   <li><b>Beginner</b></li>
                     <ul>
-                      <li>C (beginner)</li>
-                      <li>Swift (beginner)</li>
-                      <li>PHP (beginner)</li>
+                      <li>C</li>
+                      <li>Swift</li>
+                      <li>PHP</li>
                     </ul>
                 </ul>
             </details>
             <details class="frameworks-and-tools">
               <summary>Frameworks and Tools</summary>
                 <ul>
+                  <li>Git and Github</li>
+                  <li>Swing and SWT</li>
+                  <li>Maven</li>
+                  <li><a href="https://pandas.pydata.org/">pandas</a></li>
                   <li>Spring</li>
                   <li>Rails</li>
                   <li>Django</li>
-                  <li>Catalyst</li>
+                  <li><a href="https://metacpan.org/pod/Catalyst">Catalyst</a></li>
                   <li>AngularJS</li>
                   <li>Node.js</li>
-                  <li>Git and Github</li>
                   <li>jQuery</li>
                   <li>SQL</li>
+                  <li><a href="https://graphql.org/">GraphQL</a></li>
+                  <li><a href="https://www.cs.waikato.ac.nz/ml/weka/">Weka</a></li>
                   <li>Balsamiq</li>
+                </ul>
+            </details>
+            <details class="software-processes">
+              <summary>Software Processes</summary>
+                <ul>
+                  <li>Agile</li>
+                  <li>Scrum</li>
                 </ul>
             </details>
             <details class="other-skills">
@@ -96,7 +109,59 @@
                 </ul>
             </details>
         </details>
-        
+
+        <details class="experience">
+          <summary>Experience</summary>
+            <details class="measures-for-justice_software-engineer">
+              <summary>Software Engineer, Measures for Justice</summary>
+                <ul>
+                  <li>Added datatype and format detection and in-tool validation to an internal Swing app which reduced the time to configure a complex data wrangling task by 116%.</li>
+                  <li>Wrangled 13 datasets from 9 states (various criminal justice agencies and data schemas) using Kotlin.</li>
+                  <li>Implemented 11 checks to assess received data across multiple quality dimensions. Checks ranged from simple rule validation to statistical and predictive analysis.</li>
+                  <li>Built a Swing app which used reflection to dynamically generate UI forms and config-file outputs based on different Kotlin data classes.</li>
+                </ul>
+            </details>
+            <details class="xerox_software-engineer">
+              <summary>Software Engineer I, Xerox</summary>
+                <ul>
+                  <li>Created a responsive web UI for intern project using PHP, JavaScript, and HTML/CSS. Built a Python tool that intelligently merges multiple CSV/XLSX files and generates charts for easier manual analysis.</li>
+                  <li>Ported a Python memory measurement script to BASH to avoid adding non-critical software onto an embedded device.</li>
+                  <li>Produced UI SWT screens for a new feature. Refactored legacy code utilized by this feature.</li>
+                  <li>Made team’s maven build process dynamic, fixed multiple Java UI bugs, and led an effort into improving team knowledge management.</li>
+                </ul>
+            </details>
+            <details class="xerox_intern">
+              <summary>Software Engineering Intern, Xerox</summary>
+                <ul>
+                  <li>Built an automated UI testing tool, using Python and Bash. UI testing was previously done by recording videos and counting frames. Reduced time to run UI tests by 95%.</li>
+                  <li>Implemented a user-input recording tool that generates test case files to use in automated UI testing. Used C, Python, and Bash. Reduced time to gather coordinates and create UI test cases by 99%.</li>
+                </ul>
+            </details>
+            <details class="ziprecruiter_intern">
+              <summary>Software Engineering Intern, ZipRecruiter</summary>
+                <ul>
+                  <li>Compared different RESTful resume-parsing services in order to determine the most accurate one (thanks Perl regexes!). My analysis resulted in the company making a multi-million dollar deal with the choosen parsing service. (I guess I didn't lose the company millions of dollars because they invited me back.)</li>
+                  <li>QA was having problems trouble-shooting issues because bug ticket submissions were usually incomplete. I created a bug reporting system using Perl, Catalyst, HTML, CSS, and JavaScript. This system is still in use by the company with hundreds of Fogbugz tickets created through the system every year.</li>
+                  <li>Incrementally migrated a SQL database to Redshift using a Perl script and Cron scheduling.</li>
+                </ul>
+            </details>
+            <details class="constant-contact_intern">
+              <summary>Website Intern, Constant Contact</summary>
+                <ul>
+                  <li>Implemented a JavaScript font-loading algorithm that resulted in a 1 second faster page load time.</li>
+                  <li>Integrated the SonarQube code quality tool into the Java Spring website's maven build process.</li>
+                  <li>Led a meeting which lead to the team adoption of Java coding standards.</li>
+                </ul>
+            </details>
+        </details>
+
+        <details class="publications">
+          <summary>Publications</summary>
+            <ul>
+              <li><a href="https://ieeexplore.ieee.org/document/8918946">Co-Author, “Automated Characterization of Software Vulnerabilities,” <i>IEEE International Conference on Software Maintenance and Evolution (ICSME)</i>, Sept. 2019</a></li>
+            </ul>
+        </details>
+
         <details class="projects">
           <summary>Projects</summary>
             <details class="smoking-cession">
@@ -167,33 +232,6 @@
                 </ul>
             </details>          
         </details>
-
-        <details class="experience">
-          <summary>Experience</summary>
-            <details class="xerox_intern">
-              <summary>Software Engineering Intern, Xerox</summary>
-                <ul>
-                  <li>Built an automated UI testing tool, using Python and Bash. UI testing was previously done by recording videos and counting frames. Reduced time to run UI tests by 95%.</li>
-                  <li>Implemented a user-input recording tool that generates test case files to use in automated UI testing. Used C, Python, and Bash. Reduced time to gather coordinates and create UI test cases by 99%.</li>
-                </ul>
-            </details>
-            <details class="ziprecruiter">
-              <summary>Software Engineering Intern, ZipRecruiter</summary>
-                <ul>
-                  <li>Compared different RESTful resume-parsing services in order to determine the most accurate one (thanks Perl regexes!). My analysis resulted in the company making a multi-million dollar deal with the choosen parsing service. (I guess I didn't lose the company millions of dollars because they invited me back.)</li>
-                  <li>QA was having problems trouble-shooting issues because bug ticket submissions were usually incomplete. I created a bug reporting system using Perl, Catalyst, HTML, CSS, and JavaScript. This system is still in use by the company with hundreds of Fogbugz tickets created through the system every year.</li>
-                  <li>Incrementally migrated a SQL database to Redshift using a Perl script and Cron scheduling.</li>
-                </ul>
-            </details>
-            <details class="constant-contact">
-              <summary>Website Intern, Constant Contact</summary>
-                <ul>
-                  <li>Implemented a JavaScript font-loading algorithm that resulted in a 1 second faster page load time.</li>
-                  <li>Integrated the SonarQube code quality tool into the Java Spring website's maven build process.</li>
-                  <li>Led a meeting which lead to the team adoption of Java coding standards.</li>
-                </ul>
-            </details>
-        </details>
         
         <details class="courses">
           <summary>Courses</summary>
@@ -241,19 +279,22 @@
         <details class="other-things">
           <summary>Other Things I Do</summary>
             <ul>
-              <li>Tiger Tales <a href="https://www.toastmasters.org">Toastmasters</a></li>
-              <li><a href="https://www.mccossum.com/innovators-hour">Innovators Hour</a></li>
-              <li><a href="https://phisigmapi.org">Phi Sigma Pi</a> - Delta Chapter (2015 - 2017)</li>
-                <ul>
-                  <li>Initiate Advisor, Historian, Scholarship Chair</li>
-                </ul>
-              <li><a href="https://sse.rit.edu">Society of Software Engineers</a></li>
-                <ul>
-                  <li>Fundraising and Winter Ball Committees</li>
-                </ul>
-              <li><a href="http://wic.rit.edu">Women in Computing</a></li>
-                <ul>
-                  <li>Former Head of Talks, Events Committee</li>
+              <li><b>Formerly</b></li>
+              <ul>
+                <li>Tiger Tales <a href="https://www.toastmasters.org">Toastmasters</a></li>
+                <li><a href="https://www.mccossum.com/innovators-hour">Innovators Hour</a></li>
+                <li><a href="https://phisigmapi.org">Phi Sigma Pi</a> - Delta Chapter (2015 - 2017)</li>
+                  <ul>
+                    <li>Initiate Advisor, Historian, Scholarship Chair</li>
+                  </ul>
+                <li><a href="https://sse.rit.edu">Society of Software Engineers</a></li>
+                  <ul>
+                    <li>Fundraising and Winter Ball Committees</li>
+                  </ul>
+                <li><a href="http://wic.rit.edu">Women in Computing</a></li>
+                  <ul>
+                    <li>Head of Talks, Events Committee</li>
+                  </ul>
                 </ul>
             </ul>
         </details>
